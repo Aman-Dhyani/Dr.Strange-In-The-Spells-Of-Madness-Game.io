@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Strange</title>
+    <link rel="stylesheet" href="Strange.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <!------ play button ------->
+        <div id="play" onclick="display()">
+            <h1>PLAY</h1>
+        </div>
+
+        <!------ Text & input ------->
+        <div id="Textbox"  class="hide">
+            <text id="txt"></text>
+        </div>
+
+        <div id="inputBox">
+            <input type="text" id="write" placeholder="Type your spells...">
+        </div>
+
+        <!------ Health bar ------->
+        <progress id="health1" class="health" value="100" max="100"></progress>
+        <progress id="health2" class="health" value="100" max="100"></progress>
+
+        <!-- #Characters -->
+        <div id="portal1" class="hide"></div>
+        <div id="portal2" class="hide"></div>
+
+        <div id="portal3" class="hide"></div>
+        <div id="portal4" class="hide"></div>
+
+        <div id="drStrange" class="hide"></div>
+        <div id="eyeGuy" class="hide"></div>
+
+        <div id="bus" class="hide"></div>
+        <div id="bus2" class="hide"></div>
+    </div>
+
+    <script src="Strange.js"></script>
+</body>
+
+</html>
