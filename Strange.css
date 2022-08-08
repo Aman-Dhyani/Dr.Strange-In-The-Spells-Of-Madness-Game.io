@@ -27,7 +27,7 @@ body {
     border: white 3px solid;
     border-radius: 3px;
     background-image: linear-gradient(blueviolet, red);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13px;
     padding: 1%;
     text-align: center;
@@ -475,7 +475,7 @@ body {
     #container {
         margin: auto;
         width: 99%;
-        height: 70vh;
+        height: 78vh;
     }
 
     #drStrange {
@@ -494,23 +494,29 @@ body {
     }
 
     #portal1 {
-        height: 27vh;
-        width: 10%;
+        height: 12vh;
+        width: 5%;
+        animation: portalopenAndroid 0.5s linear 1;
     }
 
     #portal2 {
-        height:27vh;
-        width: 10%;
+        height:12vh;
+        width: 5%;
+        background-size: 100% 130%;
+        background-position: 170% 100%;
     }
 
     #portal3 {
-        height: 27vh;
-        width: 10%;
+        height: 12vh;
+        width: 5%;
+        animation: portalopenAndroid 0.5s linear 1;
     }
 
     #portal4 {
-        height:27vh;
-        width: 10%;
+        height:12vh;
+        width: 5%;
+        background-size: 100% 130%;
+        background-position: 170% 100%;
     }
 
     #write {
@@ -525,7 +531,7 @@ body {
     }
 
     #play {
-        font-size: 12px;
+        font-size: 8px;
     }
 }
 
@@ -534,12 +540,12 @@ body {
         height: 15vh;
         width: 20%;
         left: 100%;
-        bottom: 0%;
+        bottom: -10%;
     }
 
     10% {
         left: 80%;
-        bottom: 0%;
+        bottom: -10%;
     }
 
     18% {
@@ -550,7 +556,7 @@ body {
 
     20% {
         left: 50%;
-        bottom: 10%;
+        bottom: 0%;
     }
 
     60% {
@@ -567,6 +573,18 @@ body {
         width: 20%;
         left: -500%;
         transform: rotate(-30deg);
-        bottom: 10%;
+        bottom: 0%;
+    }
+}
+
+@keyframes portalopenAndroid {
+    0% {
+        background-position:-100% 10%;
+        background-size: 10% 10%;
+    }
+
+    100% {
+        background-position: -50% 10%;
+        background-size: 80% 80%;
     }
 }
