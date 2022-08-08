@@ -3,3 +3,5 @@ In thix Game Random spells or words generate you have to type the same word to d
 
 1) click on input tag after click on play button.
 2) Press enter after writing spells.
+
+For Pc and SmartPhones (fully responsive)
