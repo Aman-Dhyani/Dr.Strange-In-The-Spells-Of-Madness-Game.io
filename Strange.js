@@ -30,12 +30,12 @@ let write = document.querySelector("#write")
 
 
 // ------ spells array -------------------------------------------
-let spellsArray = ['Papaya', 'Apples', 'chocolate', 'Dormamu', 'encrypted', 'Fruits', 'grapes',
-    'Hawkeye', 'interface', 'jungle', 'Ghost', 'Dejavu', 'Multiverse', 'Madness', 'no way home', 'starboy',
-    'Dhyani', 'zombie', 'witch', 'templerun', 'ultron', 'strawberry', 'Wolverine', 'xmen', 'yooboy',
-    'zoom', "Aman", 'cherry', 'hello Guys', 'spiderman', 'Bitcoin', 'The Hulk', 'The Mummy', 'Assemble',
-    'kamataj', 'dark hold', 'banana', 'beach', 'Grand Theft Auto', 'froza Horizon', 'ice-cream',
-    'summer', 'infinity', 'Time stone', 'winter', 'orignal', 'asguard', 'SixOneNine', 'Avengers', 'Endgame'];
+let spellsArray = ['aman', 'apples', 'chocolate', 'Dormamu', 'onion', 'Fruits', 'grapes',
+    'killer', 'interface', 'jungle', 'Ghost', 'Dejavu', 'Multiverse', 'Madness', 'no way home', 
+    'starboy','dhyani', 'zombie', 'witch', 'temple', 'ultron', 'berry', 'Wolverine', 'xmen', 
+    'yooo','zoom', "guava", 'cherry', 'hello', 'spiderman', 'Bitcoin', 'world', 'Mummy', 'Assemble',
+    'kamartaj', 'dark hold', 'banana', 'beach', 'GTA5', 'mixer', 'icecream','summer', 'infinity', 'tommy', 
+    'winter', 'orignal', 'asguard', 'tenet', 'cap', 'umbrella'];
 
 function display() {
     theme.play()
