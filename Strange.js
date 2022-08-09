@@ -38,6 +38,7 @@ let spellsArray = ['aman', 'apples', 'chocolate', 'Dormamu', 'onion', 'Fruits', 
     'winter', 'orignal', 'asguard', 'tenet', 'cap', 'umbrella'];
 
 function display() {
+    theme.loop = true;
     theme.play()
     play.classList.add("hide")
     strange.classList.remove("hide")
