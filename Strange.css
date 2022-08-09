@@ -500,27 +500,30 @@ body {
     }
 
     #portal1 {
-        height: 12vh;
+        height: 18vh;
         width: 5%;
         animation: portalopenAndroid 0.5s linear 1;
+        bottom: 5%;
     }
 
     #portal2 {
-        height: 12vh;
+        height: 18vh;
         width: 5%;
         background-size: 100% 130%;
         background-position: 170% 100%;
         animation: none;
+        bottom: 5%;
     }
 
     #portal3 {
-        height: 12vh;
+        height: 17vh;
         width: 5%;
         animation: portalopenAndroid 0.5s linear 1;
+
     }
 
     #portal4 {
-        height: 12vh;
+        height: 17vh;
         width: 5%;
         background-size: 100% 130%;
         background-position: 170% 100%;
