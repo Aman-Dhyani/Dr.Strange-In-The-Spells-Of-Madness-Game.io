@@ -428,8 +428,8 @@ body {
 
 @keyframes portal4Bus {
     0% {
-        left: 60%;
-        bottom: 50%;
+        left: 50%;
+        bottom: 60%;
         height: 10vh;
         width: 20%;
         opacity: 1;
@@ -470,6 +470,8 @@ body {
     display: none;
 }
 
+
+
 /* ---------- For SmartPhones --------------------*/
 @media screen and (max-width:601px) {
     #container {
@@ -493,6 +495,10 @@ body {
         animation: ThrowBusForAndroid 8s linear infinite;
     }
 
+    #bus2 {
+        animation: portal4BusAndroid 0.5s linear 1;
+    }
+
     #portal1 {
         height: 12vh;
         width: 5%;
@@ -500,10 +506,11 @@ body {
     }
 
     #portal2 {
-        height:12vh;
+        height: 12vh;
         width: 5%;
         background-size: 100% 130%;
         background-position: 170% 100%;
+        animation: none;
     }
 
     #portal3 {
@@ -513,7 +520,7 @@ body {
     }
 
     #portal4 {
-        height:12vh;
+        height: 12vh;
         width: 5%;
         background-size: 100% 130%;
         background-position: 170% 100%;
@@ -556,7 +563,7 @@ body {
 
     20% {
         left: 50%;
-        bottom: 0%;
+        bottom: 1%;
     }
 
     60% {
@@ -573,18 +580,37 @@ body {
         width: 20%;
         left: -500%;
         transform: rotate(-30deg);
-        bottom: 0%;
+        bottom: 1%;
     }
 }
 
 @keyframes portalopenAndroid {
     0% {
-        background-position:-100% 10%;
+        background-position: center;
         background-size: 10% 10%;
     }
 
     100% {
-        background-position: -50% 10%;
+        background-position: center;
         background-size: 80% 80%;
+    }
+}
+
+
+@keyframes portal4BusAndroid {
+    0% {
+        left: 55%;
+        bottom: 50%;
+        height: 10vh;
+        width: 20%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 90%;
+        bottom: 0%;
+        height: 30vh;
+        width: 20%;
+        opacity: 1;
     }
 }
