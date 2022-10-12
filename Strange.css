@@ -19,20 +19,36 @@ body {
     background-position: center;
 }
 
-#play {
-    height: 4vh;
-    width: 6%;
-    min-width: 100px;
-    position: relative;
-    border: white 3px solid;
-    border-radius: 3px;
-    background-image: linear-gradient(blueviolet, red);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 13px;
-    padding: 1%;
+/* CSS */
+.button-74 {
+    height: 10vh;
+    background-color: #fbeee0;
+    border: 2px solid red;
+    border-radius: 30px;
+    box-shadow: black 4px 4px 0 0;
+    color: orangered;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 70px auto;
-}
+    position:absolute;
+    bottom: 60%;
+    left: 44%;
+
+  }
+  
+  .button-74:hover {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
 
 #Textbox {
     height: 5vh;
@@ -540,9 +556,6 @@ body {
         height: 4vh;
     }
 
-    #play {
-        font-size: 8px;
-    }
 }
 
 @keyframes ThrowBusForAndroid {
